@@ -19,8 +19,7 @@ int main(int argc, char** argv) {
     cv::namedWindow("Camera Feed", cv::WINDOW_AUTOSIZE);
 
     // 2. ����һ��VideoCapture���󣬲���0ͨ����ʾĬ�����  
-    cv::VideoCapture cap(0);
-    // cv::VideoCapture cap(0,cv::CAP_V4L2);
+    cv::VideoCapture cap(0,cv::CAP_V4L2);
 
     // �������Ƿ�ɹ���  
     if (!cap.isOpened()) {
@@ -36,9 +35,9 @@ int main(int argc, char** argv) {
 
     int width = 1920;
     int height = 1080;
-    //cap.set(cv::CAP_PROP_FOURCC, cv::VideoWriter::fourcc('M', 'J', 'P', 'G'));
-    //cap.set(cv::CAP_PROP_FOURCC, cv::VideoWriter::fourcc('H', '2', '6', '4'));
-    //cap.set(cv::CAP_PROP_FPS, fps);
+    cap.set(cv::CAP_PROP_FOURCC, cv::VideoWriter::fourcc('M', 'J', 'P', 'G'));
+    //cap.set(cv::CAP_PROP_FOURCC, cv::VideoWriter::fourcc('Y', 'U', 'Y', 'V'));
+    cap.set(cv::CAP_PROP_FPS, fps);
     cap.set(cv::CAP_PROP_FRAME_WIDTH, width);
     cap.set(cv::CAP_PROP_FRAME_HEIGHT, height);
     //cap.set(cv::CAP_PROP_FOURCC, cv::VideoWriter::fourcc('H', '2', '6', '4'));
