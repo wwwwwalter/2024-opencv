@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "read_video", "read_video\re
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "read_camera", "read_camera\read_camera.vcxproj", "{FEFD2176-E313-4678-8B2C-3F02792A31E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "put_text", "put_text\put_text.vcxproj", "{9F00BAF4-AF2E-43FF-B57C-9810F88E38AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{FEFD2176-E313-4678-8B2C-3F02792A31E0}.Release|x64.Build.0 = Release|x64
 		{FEFD2176-E313-4678-8B2C-3F02792A31E0}.Release|x86.ActiveCfg = Release|Win32
 		{FEFD2176-E313-4678-8B2C-3F02792A31E0}.Release|x86.Build.0 = Release|Win32
+		{9F00BAF4-AF2E-43FF-B57C-9810F88E38AD}.Debug|x64.ActiveCfg = Debug|x64
+		{9F00BAF4-AF2E-43FF-B57C-9810F88E38AD}.Debug|x64.Build.0 = Debug|x64
+		{9F00BAF4-AF2E-43FF-B57C-9810F88E38AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F00BAF4-AF2E-43FF-B57C-9810F88E38AD}.Debug|x86.Build.0 = Debug|Win32
+		{9F00BAF4-AF2E-43FF-B57C-9810F88E38AD}.Release|x64.ActiveCfg = Release|x64
+		{9F00BAF4-AF2E-43FF-B57C-9810F88E38AD}.Release|x64.Build.0 = Release|x64
+		{9F00BAF4-AF2E-43FF-B57C-9810F88E38AD}.Release|x86.ActiveCfg = Release|Win32
+		{9F00BAF4-AF2E-43FF-B57C-9810F88E38AD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
