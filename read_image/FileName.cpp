@@ -18,7 +18,15 @@ int main() {
     cv::imshow("Display Image", image);
 
     // 等待用户按键，然后关闭窗口  
-    cv::waitKey(0);
+    cv::waitKey(0);//无限等待（一直监听键鼠事件）
+
+    //如果没有新的帧，这一帧会一直显示在窗口里
+
+    //cv::waitKey(3000);
+    //while (1) {
+    //    std::this_thread::sleep_for(std::chrono::seconds(1));
+    //    std::cout << "sleep" << std::endl;
+    //}
 
     return 0;
 }
